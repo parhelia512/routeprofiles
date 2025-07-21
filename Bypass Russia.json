@@ -1,0 +1,68 @@
+{
+    "default_outbound": -1,
+    "id": 333333333,
+    "name": "Bypass Russia",
+    "rules": [
+        {
+            "actionType": "hijack-dns",
+            "invert": false,
+            "ip_is_private": false,
+            "ip_version": "",
+            "name": "Route DNS",
+            "network": "",
+            "noDrop": false,
+            "outboundID": -2,
+            "override_address": "",
+            "override_port": 0,
+            "protocol": "dns",
+            "rejectMethod": "",
+            "simple_action": 1634082874,
+            "sniffOverrideDest": false,
+            "source_ip_is_private": false,
+            "strategy": "",
+            "type": 0
+        },
+        {
+            "actionType": "route",
+            "invert": false,
+            "ip_is_private": false,
+            "ip_version": "",
+            "name": "Bypass Russia IPs and Domains",
+            "network": "",
+            "noDrop": false,
+            "outboundID": -2,
+            "override_address": "",
+            "override_port": 0,
+            "protocol": "",
+            "rejectMethod": "",
+            "rule_set": [
+                "ru_IP",
+                "category-ru_SITE"
+            ],
+            "simple_action": 538976266,
+            "sniffOverrideDest": false,
+            "source_ip_is_private": false,
+            "strategy": "",
+            "type": 0
+        },
+        {
+            "actionType": "route",
+            "invert": false,
+            "ip_is_private": true,
+            "ip_version": "",
+            "name": "Bypass Private IPs",
+            "network": "",
+            "noDrop": false,
+            "outboundID": -2,
+            "override_address": "",
+            "override_port": 0,
+            "protocol": "",
+            "rejectMethod": "",
+            "simple_action": 1847730208,
+            "sniffOverrideDest": false,
+            "source_ip_is_private": false,
+            "strategy": "",
+            "type": 0
+        }
+    ]
+}
