@@ -1,0 +1,17 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "rule_set": [
+        "https://krasovs.ky/sing-box/antizapret.srs"
+    ]
+}
+,{
+    "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+}
+]

@@ -1,0 +1,18 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "rule_set": [
+        "ru_IP",
+        "category-ru_SITE"
+    ]
+}
+,{
+    "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+}
+]
