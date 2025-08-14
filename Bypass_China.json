@@ -1,0 +1,19 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "rule_set": [
+        "ruleset:geoip-cn",
+        "ruleset:geosite-cn",
+        "ruleset:geosite-geolocation-cn"
+    ]
+}
+,{
+    "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+}
+]
