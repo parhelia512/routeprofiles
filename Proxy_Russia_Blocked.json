@@ -4,10 +4,11 @@
 }
 ,{
     "action": "route",
-    "outbound": "direct",
+    "outbound": "proxy",
     "rule_set": [
         "ruleset:geoip-ru-blocked",
         "ruleset:geosite-ru-blocked"
     ]
 }
+
 ]
