@@ -1,0 +1,13 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "rule_set": [
+        "ruleset:geoip-ru-blocked",
+        "ruleset:geosite-ru-blocked"
+    ]
+}
+]
