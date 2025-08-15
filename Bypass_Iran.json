@@ -7,8 +7,7 @@
     "outbound": "direct",
     "rule_set": [
         "ruleset:geoip-ir",
-        "ruleset:geosite-ir",
-        "ruleset:geosite-category-ir"
+        "ruleset:geosite-ir"
     ]
 }
 ,{
@@ -16,4 +15,5 @@
     "ip_is_private": true,
     "outbound": "direct"
 }
+
 ]
