@@ -6,9 +6,9 @@
     "action": "route",
     "outbound": "direct",
     "rule_set": [
-        "ruleset:geoip-cn",
-        "ruleset:geosite-cn",
-        "ruleset:geosite-geolocation-cn"
+        "geoip-cn",
+        "geosite-cn",
+        "geosite-geolocation-cn"
     ]
 }
 ,{
@@ -16,4 +16,5 @@
     "ip_is_private": true,
     "outbound": "direct"
 }
+
 ]
