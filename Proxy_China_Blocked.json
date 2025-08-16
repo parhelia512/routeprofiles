@@ -6,8 +6,8 @@
     "action": "route",
     "outbound": "proxy",
     "rule_set": [
-        "ruleset:geosite-gfw",
-        "ruleset:geosite-greatfire"
+        "geosite-gfw",
+        "geosite-greatfire"
     ]
 }
 ]
