@@ -6,8 +6,8 @@
     "action": "route",
     "outbound": "direct",
     "rule_set": [
-        "ruleset:geoip-ir",
-        "ruleset:geosite-ir"
+        "geoip-ir",
+        "geosite-ir"
     ]
 }
 ,{
@@ -17,3 +17,4 @@
 }
 
 ]
+
