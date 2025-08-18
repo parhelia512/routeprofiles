@@ -4,6 +4,11 @@
 }
 ,{
     "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+}
+,{
+    "action": "route",
     "outbound": "direct",
     "rule_set": [
         "geoip-ru",
@@ -12,10 +17,4 @@
         "geosite-ru-available-only-inside"
     ]
 }
-,{
-    "action": "route",
-    "ip_is_private": true,
-    "outbound": "direct"
-}
-
 ]

@@ -1,0 +1,20 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "reject",
+    "rule_set": [
+        "adblock"
+    ]
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "rule_set": [
+        "geoip-ru-blocked",
+        "geosite-ru-blocked"
+    ]
+}
+]
+

@@ -4,17 +4,16 @@
 }
 ,{
     "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+}
+,{
+    "action": "route",
     "outbound": "direct",
     "rule_set": [
         "geoip-ir",
         "geosite-ir"
     ]
 }
-,{
-    "action": "route",
-    "ip_is_private": true,
-    "outbound": "direct"
-}
-
 ]
 
